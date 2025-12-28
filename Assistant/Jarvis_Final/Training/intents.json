@@ -1,0 +1,27 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hey Jarvis", "Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi", "How are you?", "Good morning", "Good afternoon", "Good evening", "Hi"],
+         "responses": ["Hi Raam, it's been a while. I've missed you", "Good to see you again, Raam", "Hi there Raam, how can I help?", "Well, hello Raam! How may I help you this fine day?", "Guten tag Raam, wie darf ich Ihnen heute helfen? I'm just kidding, I don't know German, that's the extent of my German knowledge! How may I help you?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "See ya"],
+         "responses": ["Please type in 'exit' or hit the close button above to quit. See you!", "Please type in 'exit' or hit the close button above to quit. Have a nice day", "Please type in 'exit' or hit the close button above to quit. Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "noanswer",
+         "patterns": ["", " "],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What can I ask you?", "Who are you?", "What are you?"],
+         "responses": ["I am a simple NLP assistant designed by Raam. I'm named JARVIS after the Iron Man character"]
+        },
+        {"tag": "Appreciation",
+         "patterns": ["You're the best", "Great work", "Amazing", "You're wonderful", "Good job", "Excellent", "Brilliant", "You did a fantastic job", "You are great", "You rock"],
+         "responses": ["Thank you so much!", "Why, thank you! Did you know that Bots can blush too?", "Thanks :)", "Well, you should thank my creator. His name is Raam. He's kinda like a dad to me", "Thanks a lot. You're great too"]
+        }
+   ]
+}

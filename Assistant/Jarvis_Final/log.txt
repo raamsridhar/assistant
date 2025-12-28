@@ -1,0 +1,18 @@
+
+User: hey[{'intent': 'greeting', 'probability': '0.9760073'}]
+Jarvis: Guten tag Raam, wie darf ich Ihnen heute helfen? I'm just kidding, I don't know German, that's the extent of my German knowledge! How may I help you?
+User: lol[{'intent': 'noanswer', 'probability': '0.37010732'}, {'intent': 'greeting', 'probability': '0.27037364'}]
+Jarvis: Please give me more info
+User: hey
+User: nice
+User: hey
+User: hey[{'intent': 'greeting', 'probability': '0.98825467'}]
+Jarvis: Well, hello Raam! How may I help you this fine day?
+User: yes, how?[{'intent': 'greeting', 'probability': '0.9771771'}]
+Jarvis: Hi Raam, it's been a while. I've missed you
+User: have you[{'intent': 'Appreciation', 'probability': '0.6864169'}]
+Jarvis: Thank you so much!
+User: lol[{'intent': 'noanswer', 'probability': '0.44526008'}]
+Jarvis: Sorry, can't understand you
+User: okay[{'intent': 'noanswer', 'probability': '0.44526008'}]
+Jarvis: Please give me more info
