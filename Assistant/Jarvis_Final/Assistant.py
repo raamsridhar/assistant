@@ -1,5 +1,6 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 import os
 from chat_html import chat_html
 import json
@@ -15,8 +16,8 @@ log_contents = ""
 mode = 0
 
 class settings:
-    Training_folname = "C:\Assistant\Jarvis_Final\Training"
-    logfilename = "C:\Assistant\Jarvis_Final\log.txt"
+    Training_folname = "/home/raam/Jarvis/Training"
+    logfilename = "/home/raam/Jarvis/log.txt"
 
 class response_predictor:
     resp_settings = settings()
